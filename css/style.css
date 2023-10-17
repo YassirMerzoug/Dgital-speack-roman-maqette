@@ -44,10 +44,17 @@
   top: 5%;
 }
 
-.title-header {
+/* .title-header {
   font: 700 30px/60px "Poppins", sans-serif;
   text-transform: uppercase;
   padding: 0 40% 5% 0%;
+  text-align: justify;
+} */
+
+.title-header {
+  font: 700 38px/60px "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 0 25% 9% 0%;
   text-align: justify;
 }
 
@@ -140,6 +147,19 @@
   display: inline-block;
   margin: 0 70px;
 } */
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-point {
+  width: 102px;
+  height: 18px;
+  /* text-align: center; */
+}
 
 .child-three div .p {
   color: #f00;
@@ -346,6 +366,27 @@
   text-align: justify;
   padding: 20px 80px 0 0;
 }
+
+.media-icons {
+  position: absolute;
+  left: 330px;
+  bottom: 370px;
+}
+
+.myowner-span {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 46px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 353px;
+  bottom: 333px;
+}
+
 /* END OWNER */
 
 /* START GALERY */
@@ -743,7 +784,7 @@
 
   .my-owner .owner-content .owner-infos .owner-desc {
     color: #fff;
-    font: 400 14px/32px Montserrat;
+    font: 400 11px/30px Montserrat;
     text-align: justify;
     padding: 20px 14px 0 42px;
   }
@@ -764,6 +805,25 @@
     width: 100%;
   }
 
+  .media-icons {
+    position: absolute;
+    left: 77px;
+    bottom: -55px;
+  }
+
+  .myowner-span {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 98px;
+    bottom: -87px;
+  }
   /* END MY-OWNER */
 
   /* START GALLERY */
@@ -1077,6 +1137,26 @@
     width: 100%;
   }
 
+  .media-icons {
+    position: absolute;
+    left: 182px;
+    bottom: 98px;
+  }
+
+  .myowner-span {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 205px;
+    bottom: 64px;
+  }
+
   /* END MY-OWNER */
 
   /* START GALLERY */
@@ -1141,6 +1221,41 @@
   }
   /*END HEADER*/
 
+  /* MY-OWNER */
+  .my-owner .owner-content .owner-infos .owner-name {
+    color: #fff;
+    font: 500 217px/290px Six Caps;
+  }
+
+  .my-owner .owner-content .owner-img img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 134%;
+    width: 100%;
+  }
+
+  .media-icons {
+    position: absolute;
+    left: 232px;
+    bottom: 149px;
+  }
+
+  .myowner-span {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 254px;
+    bottom: 117px;
+  }
+  /* END MY-OWNER */
+
   /* START CONSECTETUR */
 
   .cons-schild h3 {
@@ -1196,6 +1311,17 @@
 /* LARGE SCREEN */
 
 @media (min-width: 1200px) {
+  /* START HEADER */
+  .mid {
+    position: absolute;
+    width: 433px;
+    height: 555px;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  /* END HEADER */
   /* START MY-OWNER*/
 
   .my-owner .owner-content .owner-img img {
@@ -1204,6 +1330,26 @@
     background-repeat: no-repeat;
     height: 113%;
     width: 100%;
+  }
+
+  .media-icons {
+    position: absolute;
+    left: 330px;
+    bottom: 314px;
+  }
+
+  .myowner-span {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 353px;
+    bottom: 282px;
   }
   /* END MY6OWNER */
 
